@@ -19,7 +19,7 @@ def main():
                   'Current Street 1', 'Current Street 2', 'Current Zip Code']]
     arr = test.values
 
-    test_in = df.loc[:, [First Name', 'Last Name', 'Date of Birth', 'Sex', 
+    test_in = df.loc[:, ['First Name', 'Last Name', 'Date of Birth', 'Sex', 
                   'Current Street 1', 'Current Street 2', 'Current Zip Code']]
     arr_in = test.values
 
