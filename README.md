@@ -18,5 +18,7 @@ Members:
 3. Notebook will add predicted groups column to the input file and write out to output file destination & name
 4. ***more detailed info in notebook***
 
+The web app is not fully functional so we don't advise using it for testing. However, we will have a website that asks for a csv file input and outputs a csv file with the GroupIDs. 
+
 ## Contact info
 christopher.pan@berkeley.edu
