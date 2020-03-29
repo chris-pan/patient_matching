@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 import pandas as pd
 import numpy as np
-import fuzzy
+import jellyfish
 import datetime
 import re
 import math
@@ -53,14 +53,13 @@ def main():
 #converted names to soundex tokens
 #stemmed and lemmatized address
 def table(arr):
-    soundex = fuzzy.Soundex(4)
     stemmer = PorterStemmer()
     for row in arr:
         if isinstance(row[2], str):
-            row[1] = soundex(row[1].lower())
-            row[2] = soundex(row[2].lower())
+            row[1] = jellyfish.soundex(row[1].lower())
+            row[2] = jellyfish.soundex(row[2].lower())
         else:
-            row[1] = soundex(row[1].lower())
+            row[1] = jellyfish.soundex(row[1].lower())
         row[1] = row[1].replace('%d','')
         if isinstance(row[3], datetime.datetime):
             row[3] = row[3].strftime("%m/%d/%Y")
