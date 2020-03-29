@@ -10,6 +10,7 @@ Members:
 1. Open Jupyter notebook written in Python
 2. Download libraries in first cell of notebook
 3. Change file destinations to appropriate destinations
+4. Read through notebook instructions (important for using other test files as input)
 
 ## Proof of Concept Steps
 1. Read in Patient Matching Data files and/or other files to be used for training/testing
