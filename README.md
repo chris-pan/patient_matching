@@ -1,4 +1,4 @@
-# Team Joe
+# Team Patiently Matching
 Members:
 - Christopher Pan
 - Brendan Shih
@@ -7,7 +7,7 @@ Members:
 ## Patient Matching
 
 ## Set up instructions
-1. Jupyter notebook written in python
+1. Open Jupyter notebook written in Python
 2. Download libraries in first cell of notebook
 3. Change file destinations to appropriate destinations
 
