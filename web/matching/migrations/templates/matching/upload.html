@@ -1,0 +1,22 @@
+
+{% block content %}
+<!-- <h2>upload</h2>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="document">
+    <button type="submit">Upload file</button>
+</form> -->
+
+<h1>Patient Matching</h1>
+
+<form method="post" enctype="multipart/form-data">
+   {% csrf_token %}
+  <div class="input-file-container">  
+    <input class="input-file" id="my-file" type="file" name="document">
+    <label tabindex="0" for="my-file" class="input-file-trigger">Select a file...</label>
+  </div>
+  <button type="submit">Upload file</button>
+  <p class="file-return"></p>
+</form>
+  
+{% endblock %}
