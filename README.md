@@ -1,8 +1,8 @@
 # Team Patiently Matching
 Members:
 - Christopher Pan
-- Brendan Shih
-- Mingjia Wang
+- Drake Lin
+- Enya Xing
 
 ## Patient Matching
 
